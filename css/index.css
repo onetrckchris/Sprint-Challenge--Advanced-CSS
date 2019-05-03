@@ -236,6 +236,7 @@ footer {
   width: 200px;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 .home .main-content .blog-post-card div .btn:hover {
   background-color: white;
@@ -315,6 +316,7 @@ footer {
   width: 100px;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 .home .walk .walk-text .btn:hover {
   background-color: white;
