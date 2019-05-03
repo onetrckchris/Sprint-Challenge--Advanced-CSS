@@ -161,6 +161,8 @@ p {
   margin: 0 auto;
 }
 nav {
+  width: 100%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -199,7 +201,63 @@ footer {
 }
 .home .intro img {
   border-radius: 5px;
+  padding-top: 110px;
   width: 100%;
+}
+.home .main-content {
+  padding: 40px;
+}
+.home .main-content .blog-post-card {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 0px;
+}
+.home .main-content .blog-post-card img {
+  height: 300px;
+  border-radius: 50%;
+}
+.home .main-content .blog-post-card div {
+  padding-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.home .main-content .blog-post-card div .btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: #22283A;
+  width: 200px;
+  border-radius: 5px;
+  color: white;
+}
+.home .main-content .blog-post-card div .btn:hover {
+  background-color: white;
+  color: #22283A;
+  border: 1px solid #22283A;
+}
+@media (max-width: 500px) {
+  .home .main-content .blog-post-card {
+    flex-direction: column;
+  }
+  .home .main-content .blog-post-card div {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .home .main-content .blog-post-card div .btn {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .main-content {
+    padding: 15px;
+  }
 }
 .home .space-images {
   display: flex;
@@ -276,6 +334,7 @@ footer {
   .home .walk {
     flex-direction: column;
     padding: 15px;
+    margin-top: 20px;
   }
   .home .walk .walk-text {
     width: 100%;
