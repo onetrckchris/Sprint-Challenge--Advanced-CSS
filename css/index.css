@@ -239,6 +239,7 @@ footer {
   width: 200px;
   border-radius: 5px;
   color: white;
+  border: 1px solid #22283A;
   cursor: pointer;
 }
 .home .main-content .blog-post-card div .btn:hover {
@@ -319,6 +320,7 @@ footer {
   width: 100px;
   border-radius: 5px;
   color: white;
+  border: 1px solid #22283A;
   cursor: pointer;
 }
 .home .walk .walk-text .btn:hover {
