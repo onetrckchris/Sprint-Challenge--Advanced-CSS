@@ -1,1 +1,29 @@
 // Navigation code here
+
+nav {
+    width: 100%;
+    position: fixed;
+    .custom-layout(space-between, center, column);
+    padding: 20px;
+    color: @nav-font;
+    background-color: rgba(246, 246, 246, 0.5);
+
+    h1 {
+        font-size: 3.8rem;
+    }
+
+    div {
+        margin-top: 15px;
+
+        a {
+            font-size: 1.6rem;
+            text-decoration: none;
+            margin: 0px 15px;
+            color: @nav-font;
+
+            &:hover {
+                border-bottom: 1px solid @nav-font;
+            }
+        }
+    }
+}
